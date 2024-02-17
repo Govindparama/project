@@ -9,7 +9,7 @@ class StoreManagementSystem:
         self.root.title("Store Management System")
         self.root.geometry("400x300")
 
-        self.client = MongoClient('mongodb://localhost:27017/')
+        self.client = MongoClient('mongodb+srv://avinya:IhZaI0U3z5U7jYrL@cluster0.au4s9ys.mongodb.net/')
         self.db = self.client['store']
         self.users = self.db['users']
 
